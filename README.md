@@ -52,10 +52,8 @@ $ sudo apt-get update
 $ sudo apt-get install -y python-smbus i2c-tools
 ```
 
-3. Reboot after installation
-```console
-$ sudo reboot
-```
+3. Wait ten seconds, disconnect the power to your Pi and you are now ready to connect your I2C hardware.
+
 
 ### Install nooode-rpi Docker
 

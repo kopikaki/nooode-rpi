@@ -23,15 +23,15 @@ $ sudo gpasswd -a pi docker
 $ sudo usermod -aG docker pi
 ```
 
-3. Test Docker installation
+3. Reboot after installation
+```console
+$ sudo reboot
+```
+
+4. Test Docker installation
 ```console
 $ docker --version
 $ docker images
-```
-
-4. Reboot after installation
-```console
-$ sudo reboot
 ```
 
 ### Special Instruction for RPi ZERO
@@ -44,7 +44,12 @@ $ sudo apt-get install docker-ce=18.06.2~ce~3-0~raspbian
 
 ### Install and Enable I2C Interface
 
-1. Enable I2C from system configuration
+1. Enable I2C from system configuration (Interface Option)
+
+```console
+$ sudo raspi-config
+```
+Restart Pi after configration.
 
 2. Install I2C Python Tools
 ```console

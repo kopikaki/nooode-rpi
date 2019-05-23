@@ -65,7 +65,7 @@ $ sudo apt-get install -y python-smbus i2c-tools
 
 1. Download docker image
 ```console
-$ docker pull jeffqu/noderedexp:0.4.1-rpi
+$ docker pull jeffqu/noderedexp:0.4.2-rpi
 ```
 
 2. Create working folder (for new installation)
@@ -75,7 +75,7 @@ $ mkdir -p $HOME/docker/node-red-exp/data
 
 3. Run docker instance with console
 ```console
-$ docker run -it -p 1880:1880 -v $HOME/docker/node-red-exp/data:/usr/src/data -v /lib/modules:/lib/modules --device /dev/i2c-0 --device /dev/i2c-1 --privileged --user 0 --restart unless-stopped --name noderedexp jeffqu/noderedexp:0.4.1-rpi
+$ docker run -it -p 1880:1880 -v $HOME/docker/node-red-exp/data:/usr/src/data -v /lib/modules:/lib/modules --device /dev/i2c-0 --device /dev/i2c-1 --privileged --user 0 --restart unless-stopped --name noderedexp jeffqu/noderedexp:0.4.2-rpi
 
 //Press Ctrl P and Ctrl Q to exist from console.
 ```

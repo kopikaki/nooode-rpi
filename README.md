@@ -8,6 +8,10 @@ Install nooode docker for Raspberry Pi
 ##### - Raspberry Pi 3B+ / ZERO
 ##### - OS: Raspbian Stretch with Desktop and Recommended Software
 
+**Follow the link to install Raspbian if you are setting up for a new pi**
+```console
+https://projects.raspberrypi.org/en/projects/noobs-install
+```
 
 ### Install Docker
 

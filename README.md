@@ -69,7 +69,7 @@ $ sudo apt-get install -y python-smbus i2c-tools
 
 1. Download docker image
 ```console
-$ docker pull jeffqu/noderedexp:0.5.1-rpi
+$ docker pull jeffqu/noderedexp:0.5.3-rpi
 ```
 
 2. Create working folder (for new installation)
@@ -105,7 +105,7 @@ http://{ip address of Pi}:1880
 ```
 
 ## Version
-* v0.5.1
+* v0.5.3
 
 ## Authors
 * Jeffrey Qu
